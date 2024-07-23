@@ -504,7 +504,7 @@
         <bpmn:incoming>Flow_0lkd53v</bpmn:incoming>
         <bpmn:outgoing>Flow_12ybiol</bpmn:outgoing>
       </bpmn:task>
-      <bpmn:task id="Activity_0afm57h" name="Make report of analysis">
+      <bpmn:task id="Activity_0afm57h" name="Elaborate Report">
         <bpmn:incoming>Flow_12ybiol</bpmn:incoming>
         <bpmn:outgoing>Flow_16ni1wu</bpmn:outgoing>
         <bpmn:dataOutputAssociation id="DataOutputAssociation_03krz4g">
