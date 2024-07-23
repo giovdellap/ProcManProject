@@ -536,7 +536,7 @@
       <bpmn:sequenceFlow id="Flow_0lkd53v" sourceRef="Event_0w4ebkr" targetRef="Activity_1qxnqs6" />
       <bpmn:sequenceFlow id="Flow_12ybiol" sourceRef="Activity_1qxnqs6" targetRef="Activity_0afm57h" />
     </bpmn:subProcess>
-    <bpmn:task id="Activity_05bvr3p" name="Handle development cancelation">
+    <bpmn:task id="Activity_05bvr3p" name="Handle development cancellation">
       <bpmn:incoming>Flow_0a1cd7h</bpmn:incoming>
       <bpmn:outgoing>Flow_14ouptk</bpmn:outgoing>
       <bpmn:property id="Property_0rrl8dw" name="__targetRef_placeholder" />
