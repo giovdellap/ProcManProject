@@ -4,7 +4,7 @@
     <bpmn:participant id="Participant_1c4otud" name="Tech company" processRef="Process_13wv7ln" />
     <bpmn:participant id="Participant_1z0dwum" name="Testing company" processRef="Process_0qztgz9" />
     <bpmn:participant id="Participant_1u4k27z" name="Customer Feedback System" processRef="Process_171s5rq" />
-    <bpmn:messageFlow id="Flow_1mbqvpb" name="Beta Version" sourceRef="Activity_1fz85xo" targetRef="Participant_1u4k27z" />
+    <bpmn:messageFlow id="Flow_1mbqvpb" name="Alpha Version" sourceRef="Activity_1fz85xo" targetRef="Participant_1u4k27z" />
     <bpmn:messageFlow id="Flow_0bo3pqx" name="Feedback" sourceRef="Participant_1u4k27z" targetRef="Event_1o5wllw" />
     <bpmn:messageFlow id="Flow_0mel2aq" name="Source Code" sourceRef="Activity_0gl35jg" targetRef="Participant_1z0dwum" />
     <bpmn:messageFlow id="Flow_10v2b4z" name="Test Result" sourceRef="Participant_1z0dwum" targetRef="Event_1i8z8u2" />
@@ -183,9 +183,9 @@
       <bpmn:association id="Association_0kmsb3k" associationDirection="None" sourceRef="Activity_14nrfqp" targetRef="TextAnnotation_0mjtd0a" />
     </bpmn:subProcess>
     <bpmn:sequenceFlow id="Flow_1paz4xg" sourceRef="Activity_05ae5ye" targetRef="Activity_1x0p4vi" />
-    <bpmn:dataObjectReference id="DataObjectReference_00pgl96" name="Source code [beta]" dataObjectRef="DataObject_179vi8r" />
+    <bpmn:dataObjectReference id="DataObjectReference_00pgl96" name="Source code [alpha]" dataObjectRef="DataObject_179vi8r" />
     <bpmn:dataObject id="DataObject_179vi8r" />
-    <bpmn:task id="Activity_1fz85xo" name="Beta Version Deploy">
+    <bpmn:task id="Activity_1fz85xo" name="Alpha Version Deploy">
       <bpmn:incoming>Flow_0wdagjn</bpmn:incoming>
       <bpmn:outgoing>Flow_0rpf035</bpmn:outgoing>
       <bpmn:property id="Property_0hlvom4" name="__targetRef_placeholder" />
